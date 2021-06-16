@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./styles.css">
+<title>Garden</title>
+</head>
+<body>
+<!-- <main class="container">
+<div class="row row-1">
+<div class="spot corn">&#127805;</div>
+<div class="spot tomato">&#127813;</div>
+<div class="spot mushroom">&#127812;</div>
+</div>
+<div class="row row-2">
+<div class="spot eggplant">&#127814;</div>
+<div class="spot strawberry">&#127827;</div>
+<div class="spot pepper">&#127798;</div>
+</div>
+</main> -->
+
+<textarea placeholder="What are you humming about?" name="text" id="tweet-text"></textarea>
+<!-- <script> console.log("welcome");
+document.addEventListener("keyup", (event) => {
+  var name = event.key;
+  var code = event.code;
+  // Alert the key name and key code on keydown
+  alert(`Key pressed ${name} \r\n Key code value: ${code}`);
+}, false)
+</script>   -->
+
+<script>
+
+window.onbeforeunload = function() {
+  if (textarea.value != textarea.defaultValue) {
+    return 'Do you want to leave the page and discard changes?';
+  }
+};
+</script>
+
+
+</body>
+</html>
